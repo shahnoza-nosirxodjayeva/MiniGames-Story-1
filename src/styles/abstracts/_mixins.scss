@@ -1,0 +1,13 @@
+@use './breakpoints' as bp;
+
+@mixin tablet {
+  @media (max-width: bp.$breakpoint-tablet) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: bp.$breakpoint-mobile) {
+    @content;
+  }
+}
