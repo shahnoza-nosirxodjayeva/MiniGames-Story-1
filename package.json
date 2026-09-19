@@ -1,0 +1,20 @@
+{
+  "name": "minigames-story-1",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+  "dev": "vite",
+  "build": "tsc --noEmit && vite build",
+  "preview": "vite preview",
+  "typecheck": "tsc --noEmit"
+},
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^17.5.1",
+    "prettier": "^3.9.8",
+    "sass": "^1.104.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.0"
+  }
+}
